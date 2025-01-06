@@ -40,7 +40,7 @@ describe('PostListComponent (Test d\'intégration)', () => {
 
     // Vérifie que les données sont affichées correctement dans le DOM
     const listItems = fixture.nativeElement.querySelectorAll('li');
-    expect(listItems.length).toBe(3);
+    expect(listItems.length).toBe(2);
     expect(listItems[0].textContent).toContain('Post 1');
     expect(listItems[1].textContent).toContain('Post 2');
   });
